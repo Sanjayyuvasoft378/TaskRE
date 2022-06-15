@@ -65,10 +65,7 @@ export default class Task extends Component {
 
     <label for="psw"><b>Password</b></label><br />
     <input type="password" onChange={this.passwordChange}  required/><br /><br />
-{/* 
-    <label for="psw-repeat"><b>Repeat Password</b></label><br />
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required /><br /> */}
-    
+
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
     <button onClick={this.Registration_Form}>Register</button>

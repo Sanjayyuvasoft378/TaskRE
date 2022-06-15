@@ -8,15 +8,10 @@ export default class Showdata extends Component {
   render() {
     return (
       <>
-        
-          
-         
               <td>{this.props.senddata.userName}</td>
               <td>{this.props.senddata.email}</td>
               <td>{this.props.senddata.password}</td>
             
-          
-         
       </>
     );
   }
